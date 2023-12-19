@@ -2,7 +2,6 @@
   position: relative;
   display: flex;
   height: 100vh;
-  margin-bottom: 100vh;
   overflow: hidden;
 }
 
@@ -33,4 +32,20 @@
   position: absolute;
   left: 100%;
   top: 0;
+}
+
+
+.gallery{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.galleryBody{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
