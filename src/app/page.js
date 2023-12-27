@@ -40,6 +40,12 @@ export default function Home() {
 		xPercent += 0.1 * direction
 	}
 
+	useEffect(() => {
+		(async () => {
+			const LocomotiveScroll = (await import('locomotive-scroll')).default
+			const locomotiveScroll = new LocomotiveScroll()
+		})()
+	}, [])
 	const projects = [
 		{
 			title: 'C2 Montreal',
