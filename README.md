@@ -1,12 +1,12 @@
 # 🎋 Intro
 
-Re-create awwwards winning website built by Dennis Snellenberg with Next.js
+My personal blog website for tech related articles using Next.js, originally this was made to re-create awwwards winning website by Dennis Snellenberg but realised that I can convert the base into blog.
 
 This is my first time using Next.js so it was great way to learn route structure and difference between server side and client side rendering.
 
 ## 📦 Tech Stack
 
-- Javascript
+- Typescript (Currently transitioning into Typescript from Javascript)
 - Next.js
 - GSAP
 - CSS
