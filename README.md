@@ -24,7 +24,6 @@ This is my first time using Next.js so it was great way to learn route structure
 - Animation between different route
 - Small animations on footer and copy right section
 
-
 ## 🚦 Running the Project
 
 ```
@@ -40,22 +39,4 @@ npm run build
 
 ## Demo
 
-https://awwwards-website-clone-reikoochiai.vercel.app/
-
-## Demo
-
-https://netflix-clone-6a31c.web.app/
-
-
-## Features
-
-- Live previews - if its available in Youtube
-- Fully responsive
-
-
-
-## Improvements
-
-- Function to create my list
-- Search Function with input field
-- Sort function by categories
+https://tech-blob.vercel.app/
