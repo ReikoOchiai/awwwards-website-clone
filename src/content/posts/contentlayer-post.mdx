@@ -5,7 +5,7 @@ description: Learning how to setup contentlayer with Next.js
 
 Install npm packages for MDX
 
-```javascript
+```
 
 npm i contentlayer shiki rehype-autolink-headings rehype-pretty-code rehype-slug remark-gfm
 
@@ -13,7 +13,7 @@ npm i contentlayer shiki rehype-autolink-headings rehype-pretty-code rehype-slug
 
 package.json
 
-```javascript
+```
 "scripts": {
 		...,
 		"build": "contentlayer build && next build",
@@ -31,7 +31,7 @@ filePathPattern: `posts/**/*.mdx`,
 root/contentlayer.config.js
 contentlayer.config.js
 
-```javascript
+```
 import { defineDocumentType, makeSource } from 'contentlayer/source-files'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypePrettyCode from 'rehype-pretty-code'
